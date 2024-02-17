@@ -8,6 +8,9 @@ int main() {
   int n;
   cout<<"Enter the number of elements:\n";
   cin>>n;
+  while(n>100 || n<=0){
+    cout<<"Erro! should be in range (1 to 100). \n";
+  }
   for(int i=0;i<n;i++){
     cout<<"Enter number"<<i+1<<" ";
     cin>>num[i];
