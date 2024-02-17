@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main() {
+  cout << "Hello World!\n";
+  double num[100];
+  double sum=0.0;
+  double avg;
+  int n;
+  cout<<"Enter the number of elements:\n";
+  cin>>n;
+  for(int i=0;i<n;i++){
+    cout<<"Enter number"<<i+1<<" ";
+    cin>>num[i];
+    sum = sum+num[i];
+  }
+  avg = sum/n;
+  cout<<"Average "<<avg;
+  
+}
