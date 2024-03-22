@@ -1,0 +1,134 @@
+#include <iostream>
+using namespace std;
+int main() {/* Pattern 1 simple
+  cout << "Enter n\n";
+  int n;
+  cin>>n;
+  int i =1;
+  while(i<=n){
+    int j =1;
+    while(j<=i){
+      cout<<j;
+      j = j+1;
+    }
+    cout<<endl;
+    i = i+1;
+  }*/
+  /*Pattern 2
+  cout << "Enter n\n";
+  int n;
+  cin>>n;
+  int i =1;
+  int val = 1;
+  while(i<=n){
+    int j =1;
+    while(j<=i){
+      cout<<val<<" ";
+      j = j+1;
+      val = val+1;
+    }
+    cout<<endl;
+    i = i+1;
+  }*/
+/*Pattern 3
+  cout << "Enter n\n";
+  int n;
+  cin>>n;
+  int i =1;
+  int val = 1;
+  while(i<=n){
+    int k =1;
+    while(k<=n-i){
+      //for spaces
+      cout<<" ";
+      k = k+1;
+    }
+    int j =1;
+    while(j<=i){
+      cout<<val;
+      j = j+1;
+      val = val+1;
+    }
+    cout<<endl;
+    i = i+1;
+  }
+  */
+  /*Pattern 4
+  cout << "Enter n\n";
+  int n;
+  cin>>n;
+  int i =1;
+ 
+  while(i<=n){
+   
+   int temp =i;//to store starting no. of each row
+    int j =1;
+    while(j<=i){
+      
+      cout<<temp;
+      temp++;// without use of this temp value will be same for all rows
+      j = j+1;
+      
+    }
+    cout<<endl;
+    i = i+1;
+  }
+  */
+  /*Pattern 5
+  cout << "Enter n\n";
+  int n;
+  cin>>n;
+  int i =1;
+
+  while(i<=n){
+    int k =1;
+    while(k<=n-i){
+      cout<<" ";
+      k = k+1;
+    }
+
+   int temp =i;//to store starting no. of each row
+    int j =1;
+    while(j<=i){
+
+      cout<<temp;
+      temp++;
+      j = j+1;
+
+    }
+    cout<<endl;
+    i = i+1;
+  }
+  */
+ /* Pattern 6
+  cout << "Enter n\n";
+  int n;
+  cin>>n;
+  int i =1;
+
+      while (i <= n) {
+          // Print leading spaces
+          int j = 1;
+          while (j <= n - i) {
+              cout << " ";
+              j++;
+          }
+
+          // Print '*' characters
+          j = 1;
+          while (j <= i) {
+              cout << "* ";
+              j++;
+          }
+
+          // Move to the next line
+          cout << endl;
+
+          // Move to the next row
+          i++;
+      }
+
+      return 0;
+  }
+*/
+
